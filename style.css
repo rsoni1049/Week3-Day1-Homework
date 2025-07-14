@@ -769,31 +769,40 @@ footer {
         justify-content: center;
     }
 }
-        #digital-clock {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 1.2em;
-            color: #3a3a3a;
-            background: linear-gradient(0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
-            padding: 8px 15px;
-            border-radius: 5px;
-            margin: 20px 0;
-            font-weight: bold;
-            display: inline-block;
-        }
-        
-        .header-content {
-            display: flex;
-            align-items: center;
-            width: 100%;
-        }
-        
-        .time-container {
-            text-align: center;
-            margin: 30px 0;
-            border-top: 1px solid #ddd;
-            padding-top: 20px;
-        }
-        
-        .content-section {
-            margin-bottom: 0;
-        }
+ #digital-clock {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        color: #3a3a3a;
+        background: linear-gradient(0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
+        padding: 12px 20px;
+        border-radius: 5px;
+        margin: 30px auto;
+        display: block;
+        text-align: center;
+        width: 80%;
+        max-width: 800px;
+    }
+    
+    .clock-container {
+        text-align: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+    /* Content section styling */
+    .content-section {
+        margin-bottom: 0;
+        background-color: #333;
+        color: white;
+        padding: 30px;
+        width: 80%;
+        max-width: 800px;
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+    
+    .content-box {
+        margin-bottom: 20px;
+    }
+    
+    /* Partners section styling */
