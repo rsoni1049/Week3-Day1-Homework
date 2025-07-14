@@ -806,3 +806,12 @@ footer {
     }
     
     /* Partners section styling */
+    .partners-section {
+        margin-top: 20px;
+        background-color: white;
+        padding: 30px;
+        width: 80%;
+        max-width: 800px;
+        margin: 0 auto;
+        border-radius: 8px;
+    }
